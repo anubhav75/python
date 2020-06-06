@@ -1,0 +1,12 @@
+n=int(input("no of terms"))
+first=0
+second=1
+if n <= 0 :
+ print(first)
+   Else:
+   print(first , second)
+    for x in range (2:n):
+        next= first + second
+        print(next)
+      first = second
+      second = next
