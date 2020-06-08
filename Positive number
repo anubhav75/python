@@ -2,3 +2,9 @@ myList = [ 12,-7,5,64,-14 ]
 for num in myList:
      if num >= 0:
        print(num,end=" ") 
+
+
+myList1 = [ 12,14,-95,3]
+for num in myList1:
+     if num >= 0:
+       print(num,end=" ") 
