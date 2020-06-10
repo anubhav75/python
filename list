@@ -1,0 +1,24 @@
+/assigning elements to a list/
+langs =["python","java","c++"]
+langs.append("c")
+langs.append("pearl")
+langs.append("ruby")
+print(langs)
+
+
+/accessing elements from a tuple/
+tuple =('a','e','i','o','u')
+print(tuple[0])
+print(tuple[4])
+my_tuple =("india",[0,1,2])
+print(my_tuple([0][3])
+print(my_tuple([1][2])
+
+
+/deleting different dictionary elements/
+dict = (1: "hello" , 2: "hi" , 3: "hey" , 4: "python")
+for key in dict.keys():
+     if key==2:
+     del dict[key]
+     
+ print(dict)
